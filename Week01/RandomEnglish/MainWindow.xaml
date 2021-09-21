@@ -1,0 +1,35 @@
+﻿<Window x:Class="RandomEnglish.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RandomEnglish"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="608" Width="1038">
+    <Grid>
+        <Canvas>
+            <Label Content="WHICH FRUIT SHOULD YOU EAT TODAY?" 
+               Canvas.Left="162" Canvas.Top="58" FontSize="40">
+            </Label>
+
+            <Image Name="imgFruit" Source="/Fruits/img001.jpg" 
+               Width="453" Height="302" 
+               Canvas.Left="44" Canvas.Top="145"></Image>
+
+            <Button Width="154" Height="59" Content="Get new fruit" 
+                Name="btnChange" Click="btnChange_Click" Canvas.Left="442" Canvas.Top="488" FontSize="20"></Button>
+
+            <Label Name="lbName" Content="MANGO"
+                   Canvas.Left="504" Canvas.Top="263" FontSize="50" HorizontalContentAlignment="Center" Height="70" RenderTransformOrigin="0.847,1.415" Width="467">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="0.335"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="1.345"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+        </Canvas>
+    </Grid>
+</Window>

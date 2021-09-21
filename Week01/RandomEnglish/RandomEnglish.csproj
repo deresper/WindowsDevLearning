@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fruits\img001.jpg" />
+    <None Remove="Fruits\img002.jpg" />
+    <None Remove="Fruits\img003.jpg" />
+    <None Remove="Fruits\img004.jpg" />
+    <None Remove="Fruits\img005.jpg" />
+    <None Remove="Fruits\img006.jpg" />
+    <None Remove="Fruits\img007.jpg" />
+    <None Remove="Fruits\img008.jpg" />
+    <None Remove="Fruits\img009.jpg" />
+    <None Remove="Fruits\img010.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fruits\img001.jpg" />
+    <Resource Include="Fruits\img002.jpg" />
+    <Resource Include="Fruits\img003.jpg" />
+    <Resource Include="Fruits\img004.jpg" />
+    <Resource Include="Fruits\img005.jpg" />
+    <Resource Include="Fruits\img006.jpg" />
+    <Resource Include="Fruits\img007.jpg" />
+    <Resource Include="Fruits\img008.jpg" />
+    <Resource Include="Fruits\img009.jpg" />
+    <Resource Include="Fruits\img010.jpg" />
+  </ItemGroup>
+
+</Project>
