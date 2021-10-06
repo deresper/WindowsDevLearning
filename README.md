@@ -1,2 +1,2 @@
 # WindowsDevLearning
-Những bài tập môn Lập trình Windows
+Some of my practice exercise in WPF and C# Programming.
