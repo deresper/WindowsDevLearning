@@ -1,2 +1,2 @@
 # WindowsDevLearning
-Some of my practice exercise in WPF and C# Programming.
+Some of my practice exercises in WPF and C# Programming.
