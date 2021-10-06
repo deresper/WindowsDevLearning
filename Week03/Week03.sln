@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SixJarsAdvisor", "SixJarsAdvisor\SixJarsAdvisor.csproj", "{3440A59E-3BCA-4479-842C-EDE57D267A81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3440A59E-3BCA-4479-842C-EDE57D267A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3440A59E-3BCA-4479-842C-EDE57D267A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3440A59E-3BCA-4479-842C-EDE57D267A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3440A59E-3BCA-4479-842C-EDE57D267A81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EE2C677-1DB5-489C-AC16-CD81A8B76003}
+	EndGlobalSection
+EndGlobal

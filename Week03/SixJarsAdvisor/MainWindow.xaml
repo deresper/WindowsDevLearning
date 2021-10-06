@@ -1,0 +1,35 @@
+﻿<Window x:Class="SixJarsAdvisor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SixJarsAdvisor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="550" Loaded="Window_Loaded">
+    
+    <Window.Resources>
+        <local:ConvertToVND x:Key="VNDConverter"></local:ConvertToVND>
+    </Window.Resources>
+    
+    
+    <Canvas>
+        <Label Target="{Binding txtIncome}">Input monthly income:</Label>
+        <TextBox x:Name="txtIncome" Canvas.Left="135" Canvas.Top="4" Width="150"></TextBox>
+
+        <Button x:Name="btnOK" Click="btnOK_Click" Canvas.Left="305" Canvas.Top="3" Width="55">OK</Button>
+
+        <Label Canvas.Top="55">Neccessaray Accout (NEC):</Label>
+        <Label Canvas.Top="81">Long-term saving for spending Account (LTS):</Label>
+        <Label Canvas.Top="107">Education Account (EDU):</Label>
+        <Label Canvas.Top="133">Financial Freedom Account (FFA):</Label>
+        <Label Canvas.Top="159">Play Account (PLY):</Label>
+        <Label Canvas.Top="185">Tithing or Give Account (GIV):</Label>
+
+        <Label Content="{Binding NEC, Converter={StaticResource VNDConverter}}" Width="150" Canvas.Left="250" Canvas.Top="55" Height="25"></Label>
+        <Label Content="{Binding LTS, Converter={StaticResource VNDConverter}}" Width="150" Canvas.Left="250" Canvas.Top="81" Height="25"></Label>
+        <Label Content="{Binding EDU, Converter={StaticResource VNDConverter}}" Width="150" Canvas.Left="250" Canvas.Top="108" Height="25"></Label>
+        <Label Content="{Binding FFA, Converter={StaticResource VNDConverter}}" Width="150" Canvas.Left="250" Canvas.Top="133" Height="25"></Label>
+        <Label Content="{Binding PLY, Converter={StaticResource VNDConverter}}" Width="150" Canvas.Left="250" Canvas.Top="161" Height="25"></Label>
+        <Label Content="{Binding GIV, Converter={StaticResource VNDConverter}}" Width="150" Canvas.Left="250" Canvas.Top="186" Height="25"></Label>
+    </Canvas>
+</Window>
